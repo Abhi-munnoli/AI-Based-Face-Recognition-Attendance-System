@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <title>Live Face Registration | SmartAttend</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/face-registration.css') }}">
+</head>
+<body>
+<div class="page">
+    <header class="topbar">
+        <div>
+            <div class="eyebrow">SMARTATTEND AI</div>
+            <h1>Live Face Registration</h1>
+            <p>Register one student's face securely for attendance recognition.</p>
+        </div>
+        <a href="/admin/students" class="back">← Students</a>
+    </header>
+
+    <div id="message" class="message" role="alert"></div>
+
+    <main class="grid">
+        <section class="card">
+            <h2>Student Details</h2>
+            <form id="studentForm">
+                <div class="fields">
+                    <label>Full Name<input name="name" required></label>
+                    <label>Roll Number<input name="roll_number" required></label>
+                    <label>Email<input name="email" type="email" required></label>
+                    <label>Phone<input name="phone" required></label>
+                    <label>Department<input name="department" required></label>
+                    <label>Semester<input name="semester" required></label>
+                    <label>Section<input name="section" required></label>
+                </div>
+                <input type="hidden" id="faceImage" name="face_image">
+                <button id="registerBtn" class="primary" type="submit" disabled>Register Student</button>
+            </form>
+        </section>
+
+        <section class="card">
+            <h2>Live Face Capture</h2>
+            <p class="hint">Keep exactly one face visible, centered, and well lit.</p>
+            <div class="camera">
+                <video id="video" autoplay muted playsinline></video>
+                <canvas id="canvas" hidden></canvas>
+                <div class="guide"></div>
+            </div>
+            <div class="controls">
+                <button id="startBtn" class="secondary" type="button">Start Camera</button>
+                <button id="captureBtn" class="primary" type="button" disabled>Capture Face</button>
+                <button id="retakeBtn" class="secondary" type="button" disabled>Retake</button>
+            </div>
+            <div id="status" class="status">Camera not started.</div>
+            <img id="preview" class="preview" alt="Captured face preview" hidden>
+        </section>
+    </main>
+</div>
+<script>
+window.SMARTATTEND_CSRF = document.querySelector('meta[name="csrf-token"]').content;
+</script>
+<script src="{{ url_for('static', filename='js/face-registration.js') }}"></script>
+</body>
+</html>

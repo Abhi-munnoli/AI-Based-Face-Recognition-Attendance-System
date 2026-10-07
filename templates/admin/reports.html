@@ -1,0 +1,42 @@
+{% extends "admin/base.html" %}
+{% block content %}
+<div class="grid">
+    <div class="card"><div class="muted">STUDENTS</div><div class="num">{{ students|length }}</div></div>
+    <div class="card"><div class="muted">ATTENDANCE RECORDS</div><div class="num">{{ records|length }}</div></div>
+    <div class="card"><div class="muted">PRESENT RECORDS</div><div class="num">{{ present }}</div></div>
+    <div class="card"><div class="muted">REPORT</div><div class="num">Live</div></div>
+</div>
+<div class="actions">
+    <a class="btn green" href="/admin/reports/export">↓ Export All CSV</a>
+    <form class="actions" method="get" action="{{ url_for('admin.export_daily_report') }}">
+        <label for="dailyReportDate">Daily report date</label>
+        <input id="dailyReportDate" type="date" name="date" value="{{ report_date }}" required>
+        <button class="btn green" type="submit">↓ Download Daily CSV</button>
+    </form>
+    <button class="btn dark" onclick="window.print()">Print</button>
+</div>
+<div class="panel">
+    <h3>Attendance Report</h3>
+    <div class="table-wrap">
+        <table>
+            <thead>
+                <tr><th>STUDENT</th><th>ROLL NO</th><th>DATE</th><th>TIME</th><th>STATUS</th><th>CONFIDENCE</th></tr>
+            </thead>
+            <tbody>
+                {% for r in records %}
+                <tr>
+                    <td>{{ r.get('student_name', r.get('name', '—')) }}</td>
+                    <td>{{ r.get('roll_number', '—') }}</td>
+                    <td>{{ r.get('date', '—') }}</td>
+                    <td>{{ r.get('time', '—') }}</td>
+                    <td>{{ r.get('status', '—') }}</td>
+                    <td>{{ r.get('confidence', '—') }}</td>
+                </tr>
+                {% else %}
+                <tr><td colspan="6" class="empty">No attendance data available.</td></tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,129 @@
+.face-registration-section {
+    margin-top: 24px;
+    padding: 22px;
+    border: 1px solid rgba(96, 165, 250, 0.22);
+    border-radius: 16px;
+    background: rgba(15, 23, 42, 0.55);
+}
+
+.face-registration-title {
+    margin: 0 0 6px;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.face-registration-subtitle {
+    margin: 0 0 18px;
+    color: #94a3b8;
+    font-size: 13px;
+}
+
+.face-camera-wrap {
+    display: grid;
+    grid-template-columns: minmax(260px, 520px) minmax(220px, 1fr);
+    gap: 18px;
+    align-items: start;
+}
+
+.face-video-box,
+.face-preview-box {
+    position: relative;
+    min-height: 260px;
+    overflow: hidden;
+    border: 1px solid #334155;
+    border-radius: 14px;
+    background: #020617;
+}
+
+.face-video-box video,
+.face-preview-box img {
+    display: block;
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    background: #020617;
+}
+
+.face-preview-box img {
+    display: none;
+}
+
+.face-placeholder {
+    min-height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #64748b;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px;
+}
+
+.face-status {
+    margin-top: 14px;
+    padding: 11px 14px;
+    border-radius: 10px;
+    background: #1e293b;
+    color: #cbd5e1;
+    font-size: 13px;
+}
+
+.face-status.success {
+    background: rgba(22, 101, 52, 0.28);
+    color: #86efac;
+}
+
+.face-status.error {
+    background: rgba(127, 29, 29, 0.28);
+    color: #fca5a5;
+}
+
+.face-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 14px;
+}
+
+.face-actions button {
+    min-height: 42px;
+    padding: 10px 16px;
+    border: 0;
+    border-radius: 9px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.face-capture-btn {
+    background: #2563eb;
+    color: #fff;
+}
+
+.face-retake-btn {
+    background: #334155;
+    color: #e2e8f0;
+}
+
+.face-start-btn {
+    background: #0f766e;
+    color: #fff;
+}
+
+.face-actions button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+@media (max-width: 760px) {
+    .face-camera-wrap {
+        grid-template-columns: 1fr;
+    }
+
+    .face-video-box video,
+    .face-preview-box img,
+    .face-placeholder {
+        height: 260px;
+        min-height: 260px;
+    }
+}

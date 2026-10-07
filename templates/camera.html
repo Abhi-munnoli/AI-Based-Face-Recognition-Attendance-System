@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block title %}AI Attendance Camera{% endblock %}
+{% block content %}
+<div class="container py-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <span class="eyebrow">LIVE COMPUTER VISION</span>
+            <h1>AI Attendance Camera</h1>
+        </div>
+        <a href="/admin/dashboard" class="btn btn-outline-light">Dashboard</a>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-lg-8">
+            <div class="camera-box large">
+                <video id="attendanceVideo" autoplay playsinline muted></video>
+                <canvas id="attendanceCanvas" class="d-none"></canvas>
+                <div class="face-guide"></div>
+            </div>
+            <div class="d-flex gap-2 mt-3">
+                <button class="btn btn-primary" id="startAttendanceCamera" type="button">Start Camera</button>
+                <button class="btn btn-outline-light" id="stopAttendanceCamera" type="button">Stop</button>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="panel">
+                <h4>Recognition Status</h4>
+                <div class="status-row"><span>Face</span><strong id="faceStatus">Searching...</strong></div>
+                <div class="status-row"><span>Recognition</span><strong id="recognitionStatus">Unknown</strong></div>
+                <div class="status-row"><span>Confidence</span><strong id="confidenceStatus">0%</strong></div>
+                <div class="status-row"><span>Attendance</span><strong id="attendanceStatus">Not marked</strong></div>
+                <div class="alert alert-info mt-3" id="cameraMessage">Start the camera to begin.</div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/attendance-camera.js') }}"></script>
+{% endblock %}
