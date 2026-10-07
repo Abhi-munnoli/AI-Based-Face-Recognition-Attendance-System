@@ -1,0 +1,10 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+firebase/serviceAccountKey.json
+uploads/student_faces/*
+!uploads/student_faces/.gitkeep
+.pytest_cache/
+instance/
