@@ -133,7 +133,7 @@ Review attendance data, filter records, export CSV files, and print reports.
 
 ## 🏠 1. Home Page
 
-**Image path:**
+**Image path:** <img src="file:///A:/AI_Attendance_System/ui_images/01_home.png" alt="AI Attendance System Home Page" width="900">
 
 ```text
 A:\AI_Attendance_System\images\01_home.png
