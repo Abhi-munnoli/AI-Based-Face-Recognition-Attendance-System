@@ -133,7 +133,7 @@ Review attendance data, filter records, export CSV files, and print reports.
 
 ## 1️⃣ Home Page
 
-**Image path:** `images/01_home.png`
+**Image path:** `ui_images/01_home.png`
 
 **Screenshot:**
 
