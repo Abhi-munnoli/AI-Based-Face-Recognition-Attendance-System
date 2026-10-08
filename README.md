@@ -139,8 +139,6 @@ Review attendance data, filter records, export CSV files, and print reports.
 
 <img src="images/01_home.png" alt="Home Page" width="100%">
 
----
-
 ## 2️⃣ Admin Login
 
 **Image path:** `images/02_admin_login.png`
