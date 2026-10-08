@@ -131,119 +131,94 @@ Review attendance data, filter records, export CSV files, and print reports.
 
 # 📸 Project Screenshots
 
-> **Complete project screenshots in the same format as the GitHub README example.**
->
-> Each section contains the **Image path** followed by the **Screenshot**.
+## 1️⃣ Home Page
 
----
-
-## 1. Home Page
-
-**Image path:**
-`images/01_home.png`
+**Image path:** `images/01_home.png`
 
 **Screenshot:**
 
-![AI Attend Home Page](images/01_home.png)
+![Home Page](images/01_home.png)
 
----
 
-## 2. Admin Login
+## 2️⃣ Admin Login
 
-**Image path:**
-`images/02_admin_login.png`
+**Image path:** `images/02_admin_login.png`
 
 **Screenshot:**
 
-![Admin Login Page](images/02_admin_login.png)
+![Admin Login](images/02_admin_login.png)
 
----
 
-## 3. Admin Dashboard — Overview
+## 3️⃣ Admin Dashboard
 
-**Image path:**
-`images/03_admin_dashboard_1.png`
+**Image path:** `images/03_admin_dashboard_1.png`
 
 **Screenshot:**
 
-![Admin Dashboard Overview](images/03_admin_dashboard_1.png)
+![Admin Dashboard](images/03_admin_dashboard_1.png)
 
----
 
-## 4. Admin Dashboard — Attendance Analytics
+## 4️⃣ Admin Dashboard — Attendance Analytics
 
-**Image path:**
-`images/04_admin_dashboard_2.png`
+**Image path:** `images/04_admin_dashboard_2.png`
 
 **Screenshot:**
 
-![Admin Dashboard Attendance Analytics](images/04_admin_dashboard_2.png)
+![Dashboard Analytics](images/04_admin_dashboard_2.png)
 
----
 
-## 5. Student Management
+## 5️⃣ Student Management
 
-**Image path:**
-`images/05_students.png`
+**Image path:** `images/05_students.png`
 
 **Screenshot:**
 
-![Student Management Page](images/05_students.png)
+![Student Management](images/05_students.png)
 
----
 
-## 6. Add Student — Registration
+## 6️⃣ Add Student — Registration
 
-**Image path:**
-`images/06_add_student_1.png`
+**Image path:** `images/06_add_student_1.png`
 
 **Screenshot:**
 
-![Add Student Registration](images/06_add_student_1.png)
+![Add Student](images/06_add_student_1.png)
 
----
 
-## 7. Add Student — Face Capture
+## 7️⃣ Add Student — Face Capture
 
-**Image path:**
-`images/07_add_student_2.png`
+**Image path:** `images/07_add_student_2.png`
 
 **Screenshot:**
 
-![Student Face Capture](images/07_add_student_2.png)
+![Face Capture](images/07_add_student_2.png)
 
----
 
-## 8. Attendance Records
+## 8️⃣ Attendance Records
 
-**Image path:**
-`images/08_attendance.png`
+**Image path:** `images/08_attendance.png`
 
 **Screenshot:**
 
 ![Attendance Records](images/08_attendance.png)
 
----
 
-## 9. Attendance Reports
+## 9️⃣ Attendance Reports
 
-**Image path:**
-`images/09_report.png`
+**Image path:** `images/09_report.png`
 
 **Screenshot:**
 
 ![Attendance Reports](images/09_report.png)
 
----
 
-## 10. AI Face Recognition Attendance
+## 🔟 AI Face Recognition Attendance
 
-**Image path:**
-`images/10_attendance_recognition.png`
+**Image path:** `images/10_attendance_recognition.png`
 
 **Screenshot:**
 
-![AI Face Recognition Attendance](images/10_attendance_recognition.png)
+![AI Face Recognition](images/10_attendance_recognition.png)
 
 ---
 # 🎯 Face Recognition Security
