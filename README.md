@@ -137,8 +137,9 @@ Review attendance data, filter records, export CSV files, and print reports.
 
 **Screenshot:**
 
-![Home Page](images/01_home.png)
+<img src="images/01_home.png" alt="Home Page" width="100%">
 
+---
 
 ## 2️⃣ Admin Login
 
@@ -146,8 +147,9 @@ Review attendance data, filter records, export CSV files, and print reports.
 
 **Screenshot:**
 
-![Admin Login](images/02_admin_login.png)
+<img src="images/02_admin_login.png" alt="Admin Login" width="100%">
 
+---
 
 ## 3️⃣ Admin Dashboard
 
@@ -155,8 +157,9 @@ Review attendance data, filter records, export CSV files, and print reports.
 
 **Screenshot:**
 
-![Admin Dashboard](images/03_admin_dashboard_1.png)
+<img src="images/03_admin_dashboard_1.png" alt="Admin Dashboard" width="100%">
 
+---
 
 ## 4️⃣ Admin Dashboard — Attendance Analytics
 
@@ -164,8 +167,9 @@ Review attendance data, filter records, export CSV files, and print reports.
 
 **Screenshot:**
 
-![Dashboard Analytics](images/04_admin_dashboard_2.png)
+<img src="images/04_admin_dashboard_2.png" alt="Admin Dashboard Attendance Analytics" width="100%">
 
+---
 
 ## 5️⃣ Student Management
 
@@ -173,8 +177,9 @@ Review attendance data, filter records, export CSV files, and print reports.
 
 **Screenshot:**
 
-![Student Management](images/05_students.png)
+<img src="images/05_students.png" alt="Student Management" width="100%">
 
+---
 
 ## 6️⃣ Add Student — Registration
 
@@ -182,17 +187,19 @@ Review attendance data, filter records, export CSV files, and print reports.
 
 **Screenshot:**
 
-![Add Student](images/06_add_student_1.png)
+<img src="images/06_add_student_1.png" alt="Add Student Registration" width="100%">
 
+---
 
-## 7️⃣ Add Student — Face Capture
+## 7️⃣ Add Student — Face Registration
 
 **Image path:** `images/07_add_student_2.png`
 
 **Screenshot:**
 
-![Face Capture](images/07_add_student_2.png)
+<img src="images/07_add_student_2.png" alt="Face Registration" width="100%">
 
+---
 
 ## 8️⃣ Attendance Records
 
@@ -200,25 +207,27 @@ Review attendance data, filter records, export CSV files, and print reports.
 
 **Screenshot:**
 
-![Attendance Records](images/08_attendance.png)
+<img src="images/08_attendance.png" alt="Attendance Records" width="100%">
 
+---
 
-## 9️⃣ Attendance Reports
+## 9️⃣ Reports
 
 **Image path:** `images/09_report.png`
 
 **Screenshot:**
 
-![Attendance Reports](images/09_report.png)
+<img src="images/09_report.png" alt="Attendance Reports" width="100%">
 
+---
 
-## 🔟 AI Face Recognition Attendance
+## 🔟 AI Face Recognition Camera
 
 **Image path:** `images/10_attendance_recognition.png`
 
 **Screenshot:**
 
-![AI Face Recognition](images/10_attendance_recognition.png)
+<img src="images/10_attendance_recognition.png" alt="AI Face Recognition Camera" width="100%">
 
 ---
 # 🎯 Face Recognition Security
