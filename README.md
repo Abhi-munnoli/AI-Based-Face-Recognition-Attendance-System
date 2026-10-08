@@ -131,111 +131,152 @@ Review attendance data, filter records, export CSV files, and print reports.
 
 # 📸 Project Screenshots
 
-## 🏠 1. Home Page
+> **Explore the complete AI Attend experience — from secure authentication and student enrollment to AI-powered recognition and attendance reporting.**
 
-**Image path:** <img src="file:///A:/AI_Attendance_System/ui_images/01_home.png" alt="AI Attendance System Home Page" width="900">
-Screenshot:
-<img src="file:///A:/AI_Attendance_System/images/01_home.png" alt="AI Attendance System Home Page" width="900">
-**GitHub/project version:**
-
-![AI Attendance System Home Page](ui_images/01_home.png)
-
-Screenshot:
-<img src="file:///A:/AI_Attendance_System/images/01_home.png" alt="AI Attendance System Home Page" width="900">
-**GitHub/project version:**
-
-![AI Attendance System Home Page](ui_images/01_home.png)
-
-
-## 2️⃣ Admin Login
-
-**Image path:** `images/02_admin_login.png`
-
-**Screenshot:**
-
-<img src="images/02_admin_login.png" alt="Admin Login" width="100%">
+> **All screenshots use repository-relative paths, so they display directly on GitHub when the matching files are committed to the `ui_images/` folder.**
 
 ---
 
-## 3️⃣ Admin Dashboard
+## 🏠 1. Smart Attendance Home
 
-**Image path:** `images/03_admin_dashboard_1.png`
+**Image path:**
 
-**Screenshot:**
-
-<img src="images/03_admin_dashboard_1.png" alt="Admin Dashboard" width="100%">
-
----
-
-## 4️⃣ Admin Dashboard — Attendance Analytics
-
-**Image path:** `images/04_admin_dashboard_2.png`
+```text
+ui_images/1.home.png
+```
 
 **Screenshot:**
 
-<img src="images/04_admin_dashboard_2.png" alt="Admin Dashboard Attendance Analytics" width="100%">
+![AI Attend Smart Attendance Home Page](ui_images/1.home.png)
 
 ---
 
-## 5️⃣ Student Management
+## 🔐 2. Secure Admin Login
 
-**Image path:** `images/05_students.png`
+**Image path:**
+
+```text
+ui_images/2.admin_login.png
+```
 
 **Screenshot:**
 
-<img src="images/05_students.png" alt="Student Management" width="100%">
+![AI Attend Secure Admin Login](ui_images/2.admin_login.png)
 
 ---
 
-## 6️⃣ Add Student — Registration
+## 📊 3. Intelligent Admin Dashboard
 
-**Image path:** `images/06_add_student_1.png`
+**Image path:**
+
+```text
+ui_images/3.admin_dashboard_1.png
+```
 
 **Screenshot:**
 
-<img src="images/06_add_student_1.png" alt="Add Student Registration" width="100%">
+![AI Attend Intelligent Admin Dashboard](ui_images/3.admin_dashboard_1.png)
 
 ---
 
-## 7️⃣ Add Student — Face Registration
+## 📈 4. Attendance Analytics Dashboard
 
-**Image path:** `images/07_add_student_2.png`
+**Image path:**
+
+```text
+ui_images/4.admin_dashboard_2.png
+```
 
 **Screenshot:**
 
-<img src="images/07_add_student_2.png" alt="Face Registration" width="100%">
+![AI Attend Attendance Analytics Dashboard](ui_images/4.admin_dashboard_2.png)
 
 ---
 
-## 8️⃣ Attendance Records
+## 👨‍🎓 5. Student Management
 
-**Image path:** `images/08_attendance.png`
+**Image path:**
+
+```text
+ui_images/5.students.png
+```
 
 **Screenshot:**
 
-<img src="images/08_attendance.png" alt="Attendance Records" width="100%">
+![AI Attend Student Management](ui_images/5.students.png)
 
 ---
 
-## 9️⃣ Reports
+## 📝 6. Student Registration
 
-**Image path:** `images/09_report.png`
+**Image path:**
+
+```text
+ui_images/6.add_student_1.png
+```
 
 **Screenshot:**
 
-<img src="images/09_report.png" alt="Attendance Reports" width="100%">
+![AI Attend Student Registration](ui_images/6.add_student_1.png)
 
 ---
 
-## 🔟 AI Face Recognition Camera
+## 📷 7. AI Face Enrollment
 
-**Image path:** `images/10_attendance_recognition.png`
+**Image path:**
+
+```text
+ui_images/7.add_student_2.png
+```
 
 **Screenshot:**
 
-<img src="images/10_attendance_recognition.png" alt="AI Face Recognition Camera" width="100%">
+![AI Attend AI Face Enrollment](ui_images/7.add_student_2.png)
 
 ---
+
+## 📋 8. Attendance Records
+
+**Image path:**
+
+```text
+ui_images/8.attendance.png
+```
+
+**Screenshot:**
+
+![AI Attend Attendance Records](ui_images/8.attendance.png)
+
+---
+
+## 📑 9. Attendance Reports
+
+**Image path:**
+
+```text
+ui_images/9.report.png
+```
+
+**Screenshot:**
+
+![AI Attend Attendance Reports](ui_images/9.report.png)
+
+---
+
+## 🤖 10. Live AI Face Recognition
+
+**Image path:**
+
+```text
+ui_images/10.attendance_recognition.png
+```
+
+**Screenshot:**
+
+![AI Attend Live AI Face Recognition](ui_images/10.attendance_recognition.png)
+
+---
+
 # 🎯 Face Recognition Security
 
 Attendance is not granted simply because a face is detected.
@@ -309,16 +350,16 @@ ai-attendance-system/
 │   ├── css/
 │   └── js/
 │
-└── images/
-    ├── 01_home.png
-    ├── 02_admin_login.png
-    ├── 03_admin_dashboard_1.png
-    ├── 04_admin_dashboard_2.png
-    ├── 05_students.png
-    ├── 06_add_student_1.png
-    ├── 07_add_student_2.png
-    ├── 08_attendance.png
-    ├── 09_report.png
+└── ui_images/
+    ├── 1.home.png
+    ├── 2.admin_login.png
+    ├── 3.admin_dashboard_1.png
+    ├── 4.admin_dashboard_2.png
+    ├── 5.students.png
+    ├── 6.add_student_1.png
+    ├── 7.add_student_2.png
+    ├── 8.attendance.png
+    ├── 9.report.png
     └── 10_attendance_recognition.png
 ```
 
