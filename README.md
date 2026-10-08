@@ -131,13 +131,12 @@ Review attendance data, filter records, export CSV files, and print reports.
 
 # 📸 Project Screenshots
 
-## 1️⃣ Home Page
+## 🏠 1. Home Page
 
-**Image path:** `ui_images/01_home.png`
+**Image path:**
 
-**Screenshot:**
-
-<img src="images/01_home.png" alt="Home Page" width="100%">
+```text
+A:\AI_Attendance_System\images\01_home.png
 
 ## 2️⃣ Admin Login
 
