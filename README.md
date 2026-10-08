@@ -273,7 +273,7 @@ ui_images/10.attendance_recognition.png
 
 **Screenshot:**
 
-![AI Attend Live AI Face Recognition](ui_images/10.attendence_recognition.png)
+![AI Attend Live AI Face Recognition](ui_images/10.attendence_Recognition.png)
 
 ---
 
