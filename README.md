@@ -131,195 +131,121 @@ Review attendance data, filter records, export CSV files, and print reports.
 
 # 📸 Project Screenshots
 
-The screenshots below show the complete application workflow.
-
-## 1️⃣ Home — AI Attend Landing Page
-
-A modern AI-focused landing page that introduces the project and provides access to the authentication flow.
-
-![AI Attend Home](images/01_home.png)
-
-**Main actions:** Get Started • Learn More • Features • How It Works • About
+> **Complete project screenshots in the same format as the GitHub README example.**
+>
+> Each section contains the **Image path** followed by the **Screenshot**.
 
 ---
 
-## 2️⃣ Admin Login — Secure Access
+## 1. Home Page
 
-The administrator signs in using Firebase Authentication.
+**Image path:**
+`images/01_home.png`
 
-![Admin Login](images/02_admin_login.png)
+**Screenshot:**
 
-```text
-Email + Password
-       ↓
-Firebase Authentication
-       ↓
-Token Verification
-       ↓
-Admin Authorization
-       ↓
-Admin Dashboard
-```
+![AI Attend Home Page](images/01_home.png)
 
 ---
 
-## 3️⃣ Admin Dashboard — Overview
+## 2. Admin Login
 
-The dashboard provides an at-a-glance view of the attendance system.
+**Image path:**
+`images/02_admin_login.png`
+
+**Screenshot:**
+
+![Admin Login Page](images/02_admin_login.png)
+
+---
+
+## 3. Admin Dashboard — Overview
+
+**Image path:**
+`images/03_admin_dashboard_1.png`
+
+**Screenshot:**
 
 ![Admin Dashboard Overview](images/03_admin_dashboard_1.png)
 
-It includes:
+---
 
-- Total Students
-- Present Today
-- Absent Today
-- Attendance Rate
-- Today's Attendance
-- Quick Actions
+## 4. Admin Dashboard — Attendance Analytics
+
+**Image path:**
+`images/04_admin_dashboard_2.png`
+
+**Screenshot:**
+
+![Admin Dashboard Attendance Analytics](images/04_admin_dashboard_2.png)
 
 ---
 
-## 4️⃣ Admin Dashboard — Attendance Analytics
+## 5. Student Management
 
-The dashboard also displays attendance trends and recent attendance activity.
+**Image path:**
+`images/05_students.png`
 
-![Admin Dashboard Analytics](images/04_admin_dashboard_2.png)
+**Screenshot:**
 
-This helps administrators quickly understand daily attendance activity.
-
----
-
-## 5️⃣ Student Management
-
-The student management page displays registered students and administrative actions.
-
-![Student Management](images/05_students.png)
-
-Student information includes:
-
-- Name
-- Roll Number
-- Email
-- Department
-- Semester
-- Status
-- Actions
+![Student Management Page](images/05_students.png)
 
 ---
 
-## 6️⃣ Add Student — Registration
+## 6. Add Student — Registration
 
-The Add Student page collects student information before face registration.
+**Image path:**
+`images/06_add_student_1.png`
+
+**Screenshot:**
 
 ![Add Student Registration](images/06_add_student_1.png)
 
-### Registration details
+---
 
-- Full Name
-- Roll Number
-- Email
-- Phone
-- Department
-- Semester
-- Section
+## 7. Add Student — Face Capture
+
+**Image path:**
+`images/07_add_student_2.png`
+
+**Screenshot:**
+
+![Student Face Capture](images/07_add_student_2.png)
 
 ---
 
-## 7️⃣ Add Student — Face Capture
+## 8. Attendance Records
 
-The webcam captures the student's face and provides a preview before registration.
+**Image path:**
+`images/08_attendance.png`
 
-![Face Registration](images/07_add_student_2.png)
-
-```text
-Open Camera
-     ↓
-Show Student Face
-     ↓
-Capture Face
-     ↓
-Validate Image
-     ↓
-Generate Face Encoding
-     ↓
-Register Student
-```
-
-Only one clear face should be visible during registration.
-
----
-
-## 8️⃣ Attendance Records
-
-The attendance page provides detailed attendance information.
+**Screenshot:**
 
 ![Attendance Records](images/08_attendance.png)
 
-Administrators can review:
-
-- Student
-- Roll Number
-- Date
-- Time
-- Status
-- Confidence
-- Actions
-
 ---
 
-## 9️⃣ Attendance Reports
+## 9. Attendance Reports
 
-The Reports page provides summarized attendance information and export options.
+**Image path:**
+`images/09_report.png`
+
+**Screenshot:**
 
 ![Attendance Reports](images/09_report.png)
 
-### Report capabilities
-
-- Student count
-- Attendance record count
-- Present records
-- Daily report
-- Export All CSV
-- Download Daily CSV
-- Print report
-
 ---
 
-## 🔟 AI Face Recognition Attendance
+## 10. AI Face Recognition Attendance
 
-The AI Attendance Camera is the core feature of the project.
+**Image path:**
+`images/10_attendance_recognition.png`
 
-![AI Face Recognition](images/10_attendance_recognition.png)
+**Screenshot:**
 
-The camera checks the live face against registered student face encodings.
-
-### Recognition flow
-
-```text
-Camera
-  ↓
-Face Detection
-  ↓
-Face Encoding
-  ↓
-Compare With Registered Faces
-  ↓
-       Face Match?
-       /        \
-     YES        NO
-      ↓          ↓
-  Identify     Unknown
-  Student       Face
-      ↓          ↓
- Check          Attendance
- Attendance     NOT Marked
-      ↓
- Mark Present
-```
+![AI Face Recognition Attendance](images/10_attendance_recognition.png)
 
 ---
-
 # 🎯 Face Recognition Security
 
 Attendance is not granted simply because a face is detected.
