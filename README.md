@@ -245,7 +245,7 @@ ui_images/8.attendance.png
 
 **Screenshot:**
 
-![AI Attend Attendance Records](ui_images/8.attendance.png)
+![AI Attend Attendance Records](ui_images/8.attendence.png)
 
 ---
 
@@ -273,7 +273,7 @@ ui_images/10.attendance_recognition.png
 
 **Screenshot:**
 
-![AI Attend Live AI Face Recognition](ui_images/10.attendance_recognition.png)
+![AI Attend Live AI Face Recognition](ui_images/10.attendence_recognition.png)
 
 ---
 
